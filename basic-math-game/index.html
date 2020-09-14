@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Math Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <div class="main-ui">
+        <p class="problem" id="problem"></p>
+        <form action="" class="game-form">
+            <input type="text" class="result" id="result" autocomplete="off">
+            <button class="submit">Submit</button>
+        </form>
+        <p class="message">
+            You need to score <span class="points-needed">10</span> more points and allowed to make <span class="mistakes-allowed">3</span> mistakes.
+        </p>
+        <div class="progress">
+            <div class="boxes">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <div class="progress-bar">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="popup">
+        <div class="popup-inner">
+            <p class="status-message"></p>
+            <button class="start-over">Start Over</button>
+            <button class="exit">Exit</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
